@@ -26,4 +26,9 @@ document.getElementById("button4").addEventListener("click", function () {
     document.getElementById("box").style.backgroundColor = "orange";
 });
 
-// When the _ button is clicked...
+// When the shrink button is clicked...
+document.getElementById("bonus1").addEventListener("click", function () {
+    // Decrease the size of the box.
+    document.getElementById("box").style.height = "20px";
+    document.getElementById("box").style.width = "20px";
+});
